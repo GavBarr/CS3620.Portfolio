@@ -1,0 +1,10 @@
+{% extends 'portfolio/base.html' %}
+{% block body %}
+<div class="container">
+    <form method="POST">
+        {% csrf_token %}
+        <h2>Are you sure you want to delete this?</h2>
+        <button id="detail_button" class="btn" type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}

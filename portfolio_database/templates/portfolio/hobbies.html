@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'portfolio/base.html' %}
+
+{% block body %}
+    <div class="container">
+       <h1 class="header">Hobbies!</h1>
+        {% for hobby in hobby_list %}
+        <div class="list">
+            <h1 class="description">{{ hobby.hobby_name }}</h1>
+        </div>
+        <div class="">
+             <a href="{% url 'hobby_detail'  hobby.id %}" id="detail_button" class="btn ">Details</a>
+        </div>
+            {% endfor %}
+
+
+
+    </div>
+{% endblock %}

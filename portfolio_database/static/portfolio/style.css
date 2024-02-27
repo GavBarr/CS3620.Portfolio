@@ -1,0 +1,85 @@
+
+.parent_container{
+    background-color: rgb(64, 58, 74);
+
+}
+.container{
+    text-align: center;
+    top: 2.4em;
+    height: 34em;
+    position: relative;
+    background-color: rgb(209, 206, 214);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+
+}
+#nav_bar{
+    background-color: rgb(209, 206, 214);
+}
+.header{
+    text-align: center;
+
+    position: relative;
+}
+.description{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.list{
+    list-style-type: none;
+}
+#detail_button{
+    background-color: rgb(75, 56, 107);
+    color: white;
+}
+.page-item{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(33, 37, 41, 0.75);
+}
+.page-item:hover{
+    color: white;
+}
+.img_card {
+    text-align: center;
+    position: relative;
+}
+
+.footer_parent{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7em;
+    background-color: rgb(209, 206, 214);
+    color: rgb(33, 37, 41, 0.75);
+    text-align: center;
+}
+.footer_child{
+    position:relative;
+    padding: 5px;
+}
+.footer_notes{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_email{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    font-weight: normal;
+}
+.footer_class{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
